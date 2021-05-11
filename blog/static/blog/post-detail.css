@@ -22,6 +22,7 @@ body{
 #summary h2{
     color:white;
     font-size: 4.5rem;
+    margin-bottom: 0.25rem;
 }
 
 #summary article{
@@ -47,16 +48,27 @@ margin-bottom: 1rem;
     font-weight: bold;
 }
 
+#summary a {
+    text-decoration: none;
+    color:white
+}
+
 #summary time{
     font-weight: bold;
 }
 main{
-    height: 22rem;
-    transform-origin: center;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
-    border-radius: 12px;
+    width: 90%;
+    max-width:90rem;
+    margin:3rem auto;
     background-color: white;
-    padding: 1rem 2rem;
-    margin:1rem 3.5rem;
-    font-weight: normal;
+    padding:1rem;
+    border-radius: 12px;
+    box-shadow: 0 2xp 8px rgba(0, 0, 0, 0.25);
+}
+
+.tag{
+    background-color: white;
+    color:#390281;
+    padding: 0.5rem 1rem;
+    border-radius: 12px;
 }
